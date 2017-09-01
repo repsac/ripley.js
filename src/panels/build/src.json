@@ -1,0 +1,10 @@
+[
+    "../Panel.js",
+    "../Menubar.js",
+    "../ViewMenubar.js",
+    "../Toolbar.js",
+    "../TabBar.js",
+    "../ButtonView.js",
+    "../View.js",
+    "../Viewport.js"
+]

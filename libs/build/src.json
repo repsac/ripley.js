@@ -1,0 +1,6 @@
+[
+    "../three.min.js",
+    "../OrbitControls.js",
+    "../CombinedCamera.js",
+    "../signals.min.js"
+]

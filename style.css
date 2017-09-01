@@ -1,0 +1,156 @@
+.Menubar, .Menu, .SubMenu, .TabBar, .ViewMenubar {
+  background: #56636A; 
+}
+
+.Menubar, .TabBar {
+  background-image: linear-gradient(#6A818D, #56636A);
+  box-shadow: 0 1px 1px #333;
+}
+
+.Menubar {
+  color: #eee;
+  font: normal 13px Arial, Helvetica;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 28px;
+  z-index: 999;
+}
+
+.MenuList {
+  list-style: none;
+  padding: 0;
+  cursor: default;
+  margin: 3px 0px 0px 8px;
+}
+
+.MenuName {
+  width: 85px;
+}
+
+.MenuLabel, .MenuLabelOpen {
+  padding: 3px;
+  border: 1px none;
+  border-radius: 6px;
+}
+
+.Menu, .SubMenu {
+  box-shadow: 0 1px 1px #333;
+}
+
+.Menu, .SubMenu {
+  width: 125px;
+}
+
+.MenuItemLabel {
+  display: block;
+  padding: 3px;
+  border: 1px solid #56636A;
+  border-radius: 6px;
+}
+
+.MenuLabelOpen, .MenuLabel:hover, .ViewMenuLabel:hover, .MenuItemLabel:hover {
+  background: #6A818D;
+}
+
+.Toolbar {
+  top: 99px;
+  left: 0;
+  width: 38px;
+  bottom: 0;
+  position: absolute;
+  background: #56636A;
+}
+
+.Tab, .TabActive {
+  font: normal 13px Arial, Helvetica;
+  padding: 2px;
+  margin-left: 5px;
+  margin-top: 3px;
+  height: 20px;
+  border: 1px solid #444;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  cursor: default;
+}
+
+.Tab {
+  color: #aaa;
+  box-shadow: ;
+}
+
+.TabActive {
+  color: #eee;
+  box-shadow: 0 2px 2px #333,
+}
+
+.TabLabel {
+  margin: 8px;
+  vertical-align: middle;
+}
+
+.TabBar {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  right: 0;
+  height: 70px;
+}
+
+
+.ButtonViewInActive {
+  display: none
+}
+.ButtonViewActive {
+  display: block
+}
+.ButtonViewActive, .ButtonViewInActive {
+  position: inherit;
+  top: 29px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  background: #56636A;
+  border: 1px inset;
+}
+
+.Button {
+  padding: 2px;
+  width: 30px;
+  float: left;
+}
+
+#ThreeView {
+  position: absolute;
+  top: 99px;
+  left: 38px;
+  width: 100%;
+  bottom: 0px;
+  border: 1px solid #22485C;
+}
+
+.ViewMenubar {
+  color: #eee;
+  position: inherit;
+  top: 0px;
+  width: 100%;
+  height: 20px;
+  font: normal 13px Arial, Helvetica;
+  z-index: 50;
+}
+
+.ViewMenuLabel, .ViewMenuLabelOpen {
+  padding: 0;
+  border: 1px none;
+  border-radius: 6px;
+}
+
+.Viewport {
+  position: inherit;
+  top: 20px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 45;
+}

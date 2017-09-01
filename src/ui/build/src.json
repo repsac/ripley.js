@@ -1,0 +1,10 @@
+[
+    "../Widget.js",
+    "../BaseMenu.js",
+    "../Menu.js",
+    "../MenuItem.js",
+    "../SubMenu.js",
+    "../Label.js",
+    "../Tab.js",
+    "../Button.js"
+]
